@@ -1,0 +1,19 @@
+/* #712cf9 */
+.btn-primary{
+    background-color: #712cf9;
+}
+.btn-primary:hover{
+    background-color: #5500ff;
+}
+.badge{
+    cursor: pointer;
+}
+.d-none{
+    display: none;
+}
+.txt-decoration-none{
+    text-decoration: none;
+}
+.txt-line-through{
+    text-decoration: line-through;
+}

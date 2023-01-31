@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Todo List</title>
+</head>
+<body>
+    <div id="todo-app">
+        <div class="container mt-3 d-flex flex-column" style="max-width: 800px;">
+            <h1 class="align-self-center">Todo App</h1>
+            <div>
+                <div class="alert alert-primary d-none" role="alert"></div>
+                <h3>To-do List: </h3>
+                <ul class="list-group" id="todo-list"></ul>
+            </div>
+            <div id="add-todo" class="mt-3">
+                <form>
+                    <label class="form-label" for="todo">New Todo</label>
+                    <input class= "form-control" type="text" name="todo" id="todo">
+                    <div class="d-grid">
+                        <button class="btn btn-primary mt-3" id= "add-btn"type="submit">Add todo</button>
+                        <button class="btn btn-danger mt-3" id="remove-all-btn" type="submit">Clear All Todos</button>
+                    </div>
+                </form>
+            </div>
+            <div class="lead mt-5 align-self-center">&copy; Khaled Elshahawy 2023</div>
+        </div>
+    </div>
+</body> 
+</html>
